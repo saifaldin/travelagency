@@ -1,0 +1,135 @@
+.main__background-image {
+    background: url(./images/main-background-image.png) left 50% top 15%/ 125% no-repeat;
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main__slogan {
+    width: 50%;
+    min-width: 46rem;
+    margin: 5% auto;
+}
+
+.main__slogan h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.main__slogan p {
+    width: 70%;
+    font-size: 0.8rem;
+    color: white;
+    margin: 2rem 0;
+}
+
+.more-info-button,
+.more-info-button:hover,
+.more-info-button:active {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+
+.main__about-us {
+    background-color: white;
+    width: 70%;
+    min-width: 52rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    border-radius: 3rem 0;
+}
+
+.insurance {
+    list-style: none;
+    padding: 0;
+}
+
+.insurance li {
+    margin: 2rem 0;
+}
+
+.insurance a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.insurance a:hover,
+.insurance a:active {
+    color: rgb(255, 102, 0);
+}
+
+.insurance li::after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 1px;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.no-after-line::after {
+    height: 0 !important;
+}
+
+.insurance li img,
+.insurance li a {
+    vertical-align: middle;
+}
+
+.insurance .icon {
+    filter: none;
+    opacity: 0.3;
+    width: 1.5rem;
+    height: auto;
+    margin-left: 2rem;
+    margin-right: .5rem;
+}
+
+.main__about-us>img {
+    width: 90%;
+}
+
+.about-us {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+
+.about-us h2 {
+    margin: .5rem 0;
+}
+
+.about-us p {
+    font-size: .8rem;
+    margin: 0;
+    margin-right: 2rem;
+}
+
+.about-us ul {
+    padding: 0 1rem;
+    list-style: url(images/list-style.svg);
+    font-size: .9rem;
+}
+
+.about-us li {
+    margin: .5rem 0;
+}
+
+.about-us button {
+    border: 1px solid rgb(255, 102, 0);
+    border-radius: 0;
+}
+
+.about-us button:hover,
+.about-us button:active {
+    color: rgb(255, 102, 0);
+}
